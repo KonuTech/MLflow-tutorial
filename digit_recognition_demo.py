@@ -47,6 +47,8 @@ model.fit(x_train, y_train,
           epochs=args.epochs,
           batch_size=args.batch_size)
 
+model.save('digit_model.h5')
+
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
 
 conda_env = _mlflow_conda_env(

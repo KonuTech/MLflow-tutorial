@@ -1,0 +1,18 @@
+artifact_path: model
+flavors:
+  python_function:
+    artifacts:
+      keras-model:
+        path: artifacts/model
+        uri: file:///C:/Users/KonuTech/PycharmProjects/MLflow-tutorial/mlruns/0/aee4c2b53c1c4caea5183ba6947c4591/artifacts/model
+    cloudpickle_version: 2.2.1
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.3
+mlflow_version: 2.2.2
+model_uuid: d68b8b18f44d4b48b64814cb2eb2d673
+run_id: aee4c2b53c1c4caea5183ba6947c4591
+utc_time_created: '2023-04-16 17:19:44.352231'

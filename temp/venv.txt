@@ -10,3 +10,5 @@ http://localhost:5000/
 
 mlflow models serve --env-manager local --model-uri models:/my_registered_model_1/production --port 5001
 mlflow models serve --env-manager conda --model-uri models:/my_registered_model_1/production --port 5001
+
+http://localhost:8080/tfjs.html

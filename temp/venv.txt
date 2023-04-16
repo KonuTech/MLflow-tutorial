@@ -6,5 +6,7 @@ pip list
 
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root file:/path/to/your/artifacts --host 0.0.0.0
 
+http://localhost:5000/
+
 mlflow models serve --env-manager local --model-uri models:/my_registered_model_1/production --port 5001
 mlflow models serve --env-manager conda --model-uri models:/my_registered_model_1/production --port 5001

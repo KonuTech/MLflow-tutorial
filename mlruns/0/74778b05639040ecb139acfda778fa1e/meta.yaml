@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KonuTech/PycharmProjects/MLflow-tutorial/mlruns/0/74778b05639040ecb139acfda778fa1e/artifacts
+end_time: 1681663233205
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74778b05639040ecb139acfda778fa1e
+run_name: capricious-doe-252
+run_uuid: 74778b05639040ecb139acfda778fa1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681663214041
+status: 3
+tags: []
+user_id: KonuTech
